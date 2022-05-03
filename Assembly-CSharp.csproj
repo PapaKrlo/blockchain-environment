@@ -49,6 +49,8 @@
      <Compile Include="Assets/Scripts/Landing-Scripts/movement.cs" />
      <Compile Include="Assets/StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs" />
      <Compile Include="Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs" />
+     <Compile Include="Assets/100 People - Animated Characters Pack/5.Scripts/character_Ctrl.cs" />
+     <Compile Include="Assets/100 People - Animated Characters Pack/README.cs" />
      <None Include="Assets/StarterAssets/Environment/Shaders/Built-in_RP/Triplanar.shader" />
      <None Include="Assets/StarterAssets/license.txt" />
     <Reference Include="UnityEngine">

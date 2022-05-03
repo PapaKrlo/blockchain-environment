@@ -325,6 +325,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/100 People - Animated Characters Pack/5.Scripts/character_Ctrl.cs"
+"Assets/100 People - Animated Characters Pack/README.cs"
 "Assets/Scripts/Landing-Scripts/jitter.cs"
 "Assets/Scripts/Landing-Scripts/movement.cs"
 "Assets/Scripts/Landing-Scripts/movement2.cs"
