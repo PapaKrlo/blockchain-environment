@@ -38,14 +38,18 @@
   <ItemGroup>
      <Compile Include="Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs" />
      <Compile Include="Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs" />
+     <Compile Include="Assets/Rabbits/Demo/Scripts/AnimatorParamatersChange.cs" />
      <Compile Include="Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" />
      <Compile Include="Assets/Scripts/Landing-Scripts/jitter.cs" />
      <Compile Include="Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs" />
      <Compile Include="Assets/Scripts/Landing-Scripts/movementy.cs" />
+     <Compile Include="Assets/Scripts/CyanCube-Scripts/CoinMovementY.cs" />
      <Compile Include="Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs" />
+     <Compile Include="Assets/Scripts/CyanCube-Scripts/Projectile.cs" />
      <Compile Include="Assets/Scripts/Landing-Scripts/movement2.cs" />
      <Compile Include="Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs" />
      <Compile Include="Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs" />
+     <Compile Include="Assets/Scripts/CyanCube-Scripts/CoinMovement.cs" />
      <Compile Include="Assets/Scripts/Landing-Scripts/movement.cs" />
      <Compile Include="Assets/StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs" />
      <Compile Include="Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs" />
