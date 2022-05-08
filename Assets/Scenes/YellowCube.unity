@@ -1688,6 +1688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 30
   clicked: 0
+  animator: {fileID: 944193799}
 --- !u!1 &975068091
 GameObject:
   m_ObjectHideFlags: 0
@@ -2956,6 +2957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   clicked: 0
+  animator: {fileID: 1745392333}
 --- !u!95 &1745392333
 Animator:
   serializedVersion: 3

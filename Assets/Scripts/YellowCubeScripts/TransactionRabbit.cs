@@ -7,7 +7,12 @@ public class TransactionRabbit : MonoBehaviour
     public float speed = 2;
     private Vector3 direction = Vector3.forward;
     public bool clicked = false;
+    public Animator animator;
+    void Start()
+    {
+        animator = GetComponent<Animator>();
 
+    }
     void Update()
     {
         if(clicked){
@@ -26,11 +31,12 @@ public class TransactionRabbit : MonoBehaviour
                 direction = Vector3.forward;
                 transform.localEulerAngles = new Vector3(0,0,0);
             }
+            animator.Play("Base Layer.Run");
+
         }
     }
     public void moveRabbit(){
         clicked = true;
-        Animator animator = transform.gameObject.GetComponent<Animator>();
-        animator.runtimeAnimatorController = Resources.Load("Assets/Rabbits/Animations/Rabbit2.controller") as RuntimeAnimatorController;
+        
     }
 }

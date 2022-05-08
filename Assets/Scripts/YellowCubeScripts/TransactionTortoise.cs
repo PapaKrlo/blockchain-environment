@@ -7,7 +7,12 @@ public class TransactionTortoise : MonoBehaviour
     public float speed = 2;
     private Vector3 direction = Vector3.forward;
     public bool clicked = false;
+    public Animator animator;
+    void Start()
+    {
+        animator = GetComponent<Animator>();
 
+    }
     void Update()
     {
         if(clicked){
@@ -28,11 +33,12 @@ public class TransactionTortoise : MonoBehaviour
                 direction = Vector3.forward;
                 transform.localEulerAngles = new Vector3(0,0,0);
             }
+            animator.Play("Base Layer.Run");
+
         }
     }
     public void moveTortoise(){
         clicked = true;
-        Animator animator = transform.gameObject.GetComponent<Animator>();
-        animator.runtimeAnimatorController = Resources.Load("Assets/QuirkySeries/Pets/Tortoise/Animations/Tortoise_LOD0.controller") as RuntimeAnimatorController;
+        
     }
 }
