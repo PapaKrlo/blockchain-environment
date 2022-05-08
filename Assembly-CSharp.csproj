@@ -58,7 +58,6 @@
      <Compile Include="Assets/Scripts/Landing-Scripts/movement.cs" />
      <Compile Include="Assets/StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs" />
      <Compile Include="Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs" />
-     <Compile Include="Assets/100 People - Animated Characters Pack/5.Scripts/character_Ctrl.cs" />
      <Compile Include="Assets/Scripts/YellowCubeScripts/FillBar.cs" />
      <Compile Include="Assets/100 People - Animated Characters Pack/README.cs" />
      <Compile Include="Assets/Scripts/RedCube-Scripts/Hack.cs" />
