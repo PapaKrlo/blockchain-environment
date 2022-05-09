@@ -339,6 +339,7 @@
 "Assets/Scripts/RedCube-Scripts/Hack.cs"
 "Assets/Scripts/RedCube-Scripts/Hack1.cs"
 "Assets/Scripts/RedCube-Scripts/OpenVault.cs"
+"Assets/Scripts/SwitchScenes.cs"
 "Assets/Scripts/YellowCubeScripts/CamManager.cs"
 "Assets/Scripts/YellowCubeScripts/FillBar.cs"
 "Assets/Scripts/YellowCubeScripts/ProgressBar.cs"

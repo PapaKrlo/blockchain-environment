@@ -64,6 +64,7 @@
      <Compile Include="Assets/Scripts/RedCube-Scripts/OpenVault.cs" />
      <Compile Include="Assets/Scripts/RedCube-Scripts/CamManager2.cs" />
      <Compile Include="Assets/Scripts/RedCube-Scripts/Hack1.cs" />
+     <Compile Include="Assets/Scripts/SwitchScenes.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
