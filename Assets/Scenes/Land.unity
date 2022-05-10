@@ -3780,6 +3780,7 @@ GameObject:
   - component: {fileID: 250817657}
   - component: {fileID: 250817656}
   - component: {fileID: 250817655}
+  - component: {fileID: 250817659}
   m_Layer: 0
   m_Name: Cube Center
   m_TagString: Untagged
@@ -3795,7 +3796,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250817654}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3864,6 +3865,19 @@ Transform:
   m_Father: {fileID: 1048317419}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &250817659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250817654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd6df3230615847109ee7c4c11fd8e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: CyanCube
 --- !u!1 &257675422
 GameObject:
   m_ObjectHideFlags: 0
@@ -14119,6 +14133,7 @@ GameObject:
   - component: {fileID: 1114132686}
   - component: {fileID: 1114132685}
   - component: {fileID: 1114132684}
+  - component: {fileID: 1114132688}
   m_Layer: 0
   m_Name: Cube Left
   m_TagString: Untagged
@@ -14134,7 +14149,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114132683}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -14203,6 +14218,19 @@ Transform:
   m_Father: {fileID: 1048317419}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1114132688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114132683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd6df3230615847109ee7c4c11fd8e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: YellowCube
 --- !u!1 &1115227560
 GameObject:
   m_ObjectHideFlags: 0
@@ -21381,6 +21409,7 @@ GameObject:
   - component: {fileID: 1633391547}
   - component: {fileID: 1633391546}
   - component: {fileID: 1633391545}
+  - component: {fileID: 1633391549}
   m_Layer: 0
   m_Name: Cube Right
   m_TagString: Untagged
@@ -21396,7 +21425,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1633391544}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -21465,6 +21494,19 @@ Transform:
   m_Father: {fileID: 1048317419}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1633391549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633391544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd6df3230615847109ee7c4c11fd8e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: RedCube
 --- !u!1 &1650666149
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,7 +18,6 @@ public class SwitchScenes : MonoBehaviour
     // }
 
     public void switchScene (){
-         Debug.Log("LoadSceneA");
         SceneManager.LoadScene("Land");
     }
 }
