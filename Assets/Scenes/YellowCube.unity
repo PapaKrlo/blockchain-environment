@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4490428, g: 0.49911207, b: 0.5757126, a: 1}
+  m_IndirectSpecularColor: {r: 0.44729292, g: 0.4972248, b: 0.5752095, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -498,7 +498,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -100}
-  m_SizeDelta: {x: 404, y: 44}
+  m_SizeDelta: {x: 415.7, y: 64.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &309770227
 MonoBehaviour:
@@ -827,7 +827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 368013383}
   displayText: {fileID: 1705807919}
-  speed: 0.0004
+  speed: 0.0044
   audioName: ETHTrans
   counterText: {fileID: 1328130490}
 --- !u!114 &368013383
@@ -1099,7 +1099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 507266121}
   displayText: {fileID: 1683969889}
-  speed: 0.00005
+  speed: 0.00055
   audioName: BankTrans
   counterText: {fileID: 392663137}
 --- !u!114 &507266121
@@ -2652,8 +2652,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -163.5, y: -6}
-  m_SizeDelta: {x: 50, y: 67}
+  m_AnchoredPosition: {x: -156, y: -6}
+  m_SizeDelta: {x: 120, y: 67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1328130490
 MonoBehaviour:
@@ -2989,7 +2989,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -170, y: 0}
-  m_SizeDelta: {x: 200, y: 49}
+  m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1683969889
 MonoBehaviour:
@@ -3068,7 +3068,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 170, y: 0}
-  m_SizeDelta: {x: 200, y: 49}
+  m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1705807919
 MonoBehaviour:
@@ -3483,8 +3483,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.9339623, g: 0.9070799, b: 0.8326362, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.9433962, g: 0.93261355, b: 0.90334636, a: 1}
+  m_Intensity: 1.4
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3541,13 +3541,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2053278772}
-  m_LocalRotation: {x: 0.35085598, y: -0.08848228, z: 0.19543268, w: 0.91152453}
+  m_LocalRotation: {x: 0.39859104, y: -0.07801855, z: 0.19984032, w: 0.891685}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 42.393, y: -1.875, z: 23.475}
+  m_LocalEulerAnglesHint: {x: 47.904, y: 1.724, z: 26.03}
 --- !u!4 &543450652316550973
 Transform:
   m_ObjectHideFlags: 0

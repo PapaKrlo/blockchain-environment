@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Land.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/RedCube.unity
-    guid: c6fd96599183e4ee49a6363c8ac689fe
+    path: Assets/Scenes/CyanCube.unity
+    guid: 8bf35ad25e4924c359f8f46612307d18
   - enabled: 1
     path: Assets/Scenes/YellowCube.unity
     guid: 026acd849ba164afa844970a24acf30c
   - enabled: 1
-    path: Assets/Scenes/CyanCube.unity
-    guid: 8bf35ad25e4924c359f8f46612307d18
+    path: Assets/Scenes/RedCube.unity
+    guid: c6fd96599183e4ee49a6363c8ac689fe
   m_configObjects: {}
