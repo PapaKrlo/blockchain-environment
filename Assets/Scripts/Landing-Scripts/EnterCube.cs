@@ -8,5 +8,7 @@ public class EnterCube : MonoBehaviour
     
     public void OnTriggerEnter(Collider other){
         SceneManager.LoadScene(sceneName);
+        FindObjectOfType<AudioManager>().Play("Portal");
+
     }
 }

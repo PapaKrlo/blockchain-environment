@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311915, g: 0.3807396, b: 0.35872662, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -15451,8 +15451,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: DingDing
-    clip: {fileID: 8300000, guid: 5f54de77576744759bad2d69e237ad02, type: 3}
+    clip: {fileID: 8300000, guid: 33ee9104783af4739a97f4c1ccabb9e8, type: 3}
     volume: 0.291
+    pitch: 1
+    source: {fileID: 0}
+  - name: Error
+    clip: {fileID: 8300000, guid: 7e14bb826731e47e69c44f52966ed560, type: 3}
+    volume: 0.345
+    pitch: 1
+    source: {fileID: 0}
+  - name: VaultOpen
+    clip: {fileID: 8300000, guid: aa4fddad585ff4cc3a66828714482333, type: 3}
+    volume: 0.385
+    pitch: 1
+    source: {fileID: 0}
+  - name: VaultClose
+    clip: {fileID: 8300000, guid: 43a7ad5282e9c4a41ab677a86c5dc056, type: 3}
+    volume: 0.433
+    pitch: 1
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: b5ec733f9947045deb0f0b338f3508ed, type: 3}
+    volume: 0.433
     pitch: 1
     source: {fileID: 0}
 --- !u!1 &1927472237
@@ -16884,6 +16904,7 @@ GameObject:
   - component: {fileID: 2107732285}
   - component: {fileID: 2107732284}
   - component: {fileID: 2107732283}
+  - component: {fileID: 2107732287}
   m_Layer: 0
   m_Name: floor
   m_TagString: Untagged
@@ -16969,6 +16990,102 @@ Transform:
   m_Father: {fileID: 154819026}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2107732287
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107732282}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 13a2811b39a104c4daba76afa3db819c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.341
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &2136759856
 PrefabInstance:
   m_ObjectHideFlags: 0
