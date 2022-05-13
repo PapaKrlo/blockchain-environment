@@ -15,7 +15,7 @@ public class AudioManager : MonoBehaviour
         }
     }
     void Start(){
-       Play("Background");   
+       //Play("Background");   
 
     }
 
@@ -23,6 +23,13 @@ public class AudioManager : MonoBehaviour
     public void Play(string name)
     {
         Sound s = Array.Find(sounds, sound=> sound.name == name );
+        s.source.Play();
+
+    }
+    public void PlayAndLoop(string name)
+    {
+        Sound s = Array.Find(sounds, sound=> sound.name == name );
+        s.source.loop = true;
         s.source.Play();
 
     }

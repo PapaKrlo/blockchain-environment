@@ -8,7 +8,7 @@ public class OpenVault : MonoBehaviour
     public Text item1;
     public Text item2;
     public Text item3;
-    private bool opened = false;
+    private int opened = 0;
 
 
     // Start is called before the first frame update
@@ -25,11 +25,15 @@ public class OpenVault : MonoBehaviour
             //Console.WriteLine("heyy");
             Debug.Log("hey");
             animator.Play("Base Layer.openVault");
-            opened = true;
+            opened += 1;
         }
         else{
-            animator.Play("Base Layer.empty");
+            if(opened>=1){
+                FindObjectOfType<AudioManager>().Play("VaultClose");
 
+            }
+            animator.Play("Base Layer.empty");
+            opened = 0;
         }
 
         vaultSound();
@@ -37,10 +41,13 @@ public class OpenVault : MonoBehaviour
 
     void vaultSound() 
     {
-        if(opened == true) 
+        if(opened == 1) 
         {
+            FindObjectOfType<AudioManager>().Play("VaultOpen");
+
             FindObjectOfType<AudioManager>().Play("DingDing");
+
         }
-        opened = false;
+        //opened = false;
     }
 }

@@ -37,6 +37,7 @@ public class TransactionRabbit : MonoBehaviour
     }
     public void moveRabbit(){
         clicked = true;
-        
+       
+    
     }
 }

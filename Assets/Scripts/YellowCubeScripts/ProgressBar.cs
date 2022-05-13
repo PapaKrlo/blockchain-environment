@@ -7,7 +7,7 @@ public class ProgressBar : FillBar {
     private UnityEvent onProgressComplete;
     public float speed = 0.0003f;
     private bool clicked = false;
-    
+    public string audioName;
     private int count = 0;
     
 
@@ -46,6 +46,7 @@ public class ProgressBar : FillBar {
     void OnProgressComplete() {
         count+=1;
         //countRabbit+=1;
+        FindObjectOfType<AudioManager>().Play(audioName);
 
         Debug.Log("Progress Complete");
     }

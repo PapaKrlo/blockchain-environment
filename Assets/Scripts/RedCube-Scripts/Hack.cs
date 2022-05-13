@@ -18,6 +18,8 @@ public class Hack : MonoBehaviour
     }
     public void startClick(){
         index+=1;
+        FindObjectOfType<AudioManager>().Play("Click");
+
         if(index==letters.Length){
             index=0;
         }
