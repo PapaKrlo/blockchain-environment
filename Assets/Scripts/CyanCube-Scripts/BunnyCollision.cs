@@ -5,7 +5,7 @@ using UnityEngine;
 public class BunnyCollision : MonoBehaviour
 {
     public Animator animator;
-
+    public string thump;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +16,8 @@ public class BunnyCollision : MonoBehaviour
 
     public void OnTriggerEnter(Collider other){
         animator.Play("Base Layer.Run");
-        Debug.Log("cllided");   
+        FindObjectOfType<AudioManager>().Play(thump);
+        FindObjectOfType<AudioManager>().Play("Coin");   
+   
     }
 }
