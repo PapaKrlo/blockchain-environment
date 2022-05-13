@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Hack : MonoBehaviour
 {
     public Text displayText;
-    private string[] letters = {"B", "Q", "X", "A", "Z", "3"};
+    private string[] letters = {"B", "Z", "X", "A", "Q", "3"};
     private int index = 0;
 
 
